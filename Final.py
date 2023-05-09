@@ -15,13 +15,11 @@ This Program is a Cannabis Licence Webpage based on Streamlit with features:
     5. A detailed sorted data for users to look at.
 """
 
-pip install seaborn
+
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 
-sns.set()
 
 data = pd.read_excel("Cannabis_MA.xlsx")
 data['Region'] = data['Region'].fillna("Not Provided").astype(str)
