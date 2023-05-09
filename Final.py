@@ -15,7 +15,7 @@ This Program is a Cannabis Licence Webpage based on Streamlit with features:
     5. A detailed sorted data for users to look at.
 """
 
-
+pip seaborn
 import streamlit as st
 import pandas as pd
 import seaborn as sns
